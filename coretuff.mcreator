@@ -1,0 +1,311 @@
+{
+  "mod_elements": [
+    {
+      "name": "Version",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "version",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/VersionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Coretuff",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coretuff",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Coretuff.java"
+        ]
+      }
+    },
+    {
+      "name": "GmsLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gms_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/GmsLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Gms",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gms",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Gms.java"
+        ]
+      }
+    },
+    {
+      "name": "GmspLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmsp_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/GmspLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Gmsp",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmsp",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Gmsp.java"
+        ]
+      }
+    },
+    {
+      "name": "Gmalogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmalogic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/GmalogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Gma",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gma",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Gma.java"
+        ]
+      }
+    },
+    {
+      "name": "FlyLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/FlyLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Fly",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Fly.java"
+        ]
+      }
+    },
+    {
+      "name": "GmcLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/GmcLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Gmc",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Gmc.java"
+        ]
+      }
+    },
+    {
+      "name": "HealLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/HealLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Heal",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Heal.java"
+        ]
+      }
+    },
+    {
+      "name": "FeedLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feed_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/FeedLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Feed",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feed",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Feed.java"
+        ]
+      }
+    },
+    {
+      "name": "SuicideLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suicide_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/SuicideLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Suicide",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suicide",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Suicide.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/org/voxelware/coretuff/init/CoretuffModCommands.java",
+      "src/main/java/org/voxelware/coretuff/init/CoretuffModProcedures.java",
+      "src/main/resources/plugin.yml",
+      "src/main/java/org/voxelware/coretuff/CoretuffMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "coretuff",
+    "modName": "Coretuff",
+    "version": "0.1.0",
+    "description": "An absolutely TUFF core plugin",
+    "author": "membercatcousin",
+    "websiteURL": "https://modrinth.com/plugin/coretuff",
+    "license": "GNU General Public License version 2 (GPLv2)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "paper-1.21.8",
+    "credits": "membercatcousin",
+    "modElementsPackage": "org.voxelware.coretuff"
+  },
+  "mcreatorVersion": 202500345720
+}
