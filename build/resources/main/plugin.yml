@@ -1,0 +1,27 @@
+main: org.voxelware.coretuff.CoretuffMod
+name: Coretuff
+version: 0.1.0
+authors: [membercatcousin]
+description: An absolutely TUFF core plugin
+website: https://modrinth.com/plugin/coretuff
+api-version: 1.21
+
+commands:
+  coretuff:
+    permission: coretuff.use
+  gms:
+    permission: gms.use
+  gmsp:
+    permission: gmsp.use
+  gma:
+    permission: gma.use
+  fly:
+    permission: fly.use
+  gmc:
+    permission: gmc.use
+  heal:
+    permission: heal.use
+  feed:
+    permission: feed.use
+  suicide:
+    permission: suicide.use
