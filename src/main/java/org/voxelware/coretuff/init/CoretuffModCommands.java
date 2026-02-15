@@ -18,6 +18,8 @@ public class CoretuffModCommands {
 			commands.registrar().register(Heal.register());
 			commands.registrar().register(Feed.register());
 			commands.registrar().register(Suicide.register());
+			commands.registrar().register(Clear.register());
+			commands.registrar().register(Invincible.register());
 		});
 	}
 }

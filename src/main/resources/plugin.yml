@@ -25,3 +25,7 @@ commands:
     permission: feed.use
   suicide:
     permission: suicide.use
+  clear:
+    permission: clear.use
+  invincible:
+    permission: invincible.use
