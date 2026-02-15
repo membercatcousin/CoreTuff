@@ -64,6 +64,6 @@ All permissions follow a simple, consistent format: `coretuff.command.<command>`
 
 ## License
 
-This project is open source and available under the GNU General Public License v3.
+This project is open source and available under the GNU General Public License v2.
 
 *CoreTuff - Making server management a little easier, one command at a time.*
