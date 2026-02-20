@@ -22,6 +22,18 @@ CoreTuff provides a clean set of commands for server management and player utili
 | `/heal` | Restore health to full |
 | `/feed` | Restore hunger to full |
 
+### Admin & System Tools
+| Command | Description |
+|---------|-------------|
+| `/specs` | View Server RAM, TPS, and CPU |
+| `/lightning` | Smite a protocol violator |
+| `/clearchat` | Execute the Tsunami Protocol |
+
+### Silly Goober Commands
+| Command | Description |
+|---------|-------------|
+| `/cat` | Spawns 10 cousins |
+
 ## Permissions
 
 All permissions follow a simple, consistent format: `coretuff.command.<command>`
@@ -36,12 +48,16 @@ All permissions follow a simple, consistent format: `coretuff.command.<command>`
 | `coretuff.command.suicide` | Access to `/suicide` |
 | `coretuff.command.heal` | Access to `/heal` |
 | `coretuff.command.feed` | Access to `/feed` |
-| `coretuff.command.coretuff` | Access to `/coretuff` |
+| `coretuff.command.specs` | Access to `/specs` |
+| `coretuff.command.lightning` | Access to `/lightning` |
+| `coretuff.command.clearchat` | Access to `/clearchat` |
+| `coretuff.command.cat` | Access to `/cat` |
+| `coretuff.command.coretuff` | Access to `/coretuff` (Base command/API list) |
 
 ### Admin Permission
 | Permission | Description |
 |------------|-------------|
-| `coretuff.admin` | Grants access to ALL Coretuff commands (inherits all above) |
+| `coretuff.admin` | Grants access to ALL CoreTuff commands (inherits all above) |
 
 ## Requirements
 
