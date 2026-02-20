@@ -16,6 +16,9 @@ public class CoretuffModProcedures {
 		plugin.getServer().getPluginManager().registerEvents(new FeedLogicProcedure(), plugin);
 		plugin.getServer().getPluginManager().registerEvents(new SuicideLogicProcedure(), plugin);
 		plugin.getServer().getPluginManager().registerEvents(new ClearLogicProcedure(), plugin);
-		plugin.getServer().getPluginManager().registerEvents(new InvincibleLogicProcedure(), plugin);
+		plugin.getServer().getPluginManager().registerEvents(new CatLogicProcedure(), plugin);
+		plugin.getServer().getPluginManager().registerEvents(new LightningLogicProcedure(), plugin);
+		plugin.getServer().getPluginManager().registerEvents(new SpecsLogicProcedure(), plugin);
+		plugin.getServer().getPluginManager().registerEvents(new ClearchatLogicProcedure(), plugin);
 	}
 }

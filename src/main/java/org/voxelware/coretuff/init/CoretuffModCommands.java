@@ -19,7 +19,10 @@ public class CoretuffModCommands {
 			commands.registrar().register(Feed.register());
 			commands.registrar().register(Suicide.register());
 			commands.registrar().register(Clear.register());
-			commands.registrar().register(Invincible.register());
+			commands.registrar().register(Cat.register());
+			commands.registrar().register(Lightning.register());
+			commands.registrar().register(Specs.register());
+			commands.registrar().register(Clearchat.register());
 		});
 	}
 }

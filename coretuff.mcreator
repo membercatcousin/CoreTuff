@@ -269,6 +269,170 @@
           "src/main/java/org/voxelware/coretuff/commands/Suicide.java"
         ]
       }
+    },
+    {
+      "name": "ClearLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/ClearLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Clear",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Clear.java"
+        ]
+      }
+    },
+    {
+      "name": "CatLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/CatLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Cat",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Cat.java"
+        ]
+      }
+    },
+    {
+      "name": "LightningLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/LightningLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Lightning",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Lightning.java"
+        ]
+      }
+    },
+    {
+      "name": "SpecsLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "specs_logic",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/SpecsLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Specs",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "specs",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Specs.java"
+        ]
+      }
+    },
+    {
+      "name": "ClearchatLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clearchat_logic",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/org/voxelware/coretuff/procedures/ClearchatLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Clearchat",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clearchat",
+      "metadata": {
+        "files": [
+          "src/main/java/org/voxelware/coretuff/commands/Clearchat.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -293,7 +457,7 @@
   "workspaceSettings": {
     "modid": "coretuff",
     "modName": "Coretuff",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "description": "An absolutely TUFF core plugin",
     "author": "membercatcousin",
     "websiteURL": "https://modrinth.com/plugin/coretuff",

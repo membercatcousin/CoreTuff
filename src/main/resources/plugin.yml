@@ -1,6 +1,6 @@
 main: org.voxelware.coretuff.CoretuffMod
 name: Coretuff
-version: 0.1.0
+version: 0.2.1
 authors: [membercatcousin]
 description: An absolutely TUFF core plugin
 website: https://modrinth.com/plugin/coretuff
@@ -27,5 +27,11 @@ commands:
     permission: suicide.use
   clear:
     permission: clear.use
-  invincible:
-    permission: invincible.use
+  cat:
+    permission: cat.use
+  lightning:
+    permission: lightning.use
+  specs:
+    permission: specs.use
+  clearchat:
+    permission: clearchat.use

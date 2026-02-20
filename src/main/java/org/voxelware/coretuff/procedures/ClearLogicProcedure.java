@@ -10,5 +10,6 @@ public class ClearLogicProcedure implements Listener {
 			return;
 		if (entity instanceof Player _player)
 			_player.getInventory().clear();
+		entity.sendMessage("Cleared all items from player inventory");
 	}
 }
